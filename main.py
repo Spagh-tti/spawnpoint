@@ -19,7 +19,7 @@ try:
     color_index = 0
     while True:
         # Print the string with current color
-        print(f"{colors[color_index]}wow so cool{reset}")
+        print(f"{colors[color_index]}I like cars{reset}")
         
         # Move to next color (loop back to start after magenta)
         color_index = (color_index + 1) % len(colors)
